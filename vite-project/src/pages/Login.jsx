@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useForm } from "react-hook-form"
-import { auth } from '../config/Firebase/FirebaseMethods'
 import { loginUser } from '../config/Firebase/FirebaseMethods'
 
 const Login = () => {
@@ -17,7 +16,7 @@ const Login = () => {
   // Calling Navigate Hook
   const navigate = useNavigate();
 
-  //Login User With Firebase Authentication
+  
   const LoginUserFromFirebase = async (data) => {
     try {
       const existingUser = await loginUser({
