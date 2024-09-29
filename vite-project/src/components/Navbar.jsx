@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FaBars } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
-import { auth, getData, signOutUser } from '../config/firebase/FirebaseMethods';
+import { auth, getData, signOutUser } from '../config/Firebase/FirebaseMethods';
 import { onAuthStateChanged } from 'firebase/auth';
 
 

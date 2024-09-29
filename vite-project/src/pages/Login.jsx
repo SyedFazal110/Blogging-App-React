@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useForm } from "react-hook-form"
-import { auth } from '../Config/Firebase/FirebaseMethods'
-import { loginUser } from '../Config/Firebase/FirebaseMethods'
+import { auth } from '../config/Firebase/FirebaseMethods'
+import { loginUser } from '../config/Firebase/FirebaseMethods'
 
 const Login = () => {
   const [errorMessage, setErrorMessage] = useState("");

@@ -1,4 +1,4 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
@@ -12,4 +12,5 @@ const firebaseConfig = {
 };
 
 
-export const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+export { app };

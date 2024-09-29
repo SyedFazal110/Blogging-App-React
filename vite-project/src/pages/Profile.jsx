@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { MdEdit } from "react-icons/md";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth, getData, updateDocument } from '../Config/Firebase/FirebaseMethods';
+import { auth, getData, updateDocument } from '../config/Firebase/FirebaseMethods';
 
 const Profile = () => {
   const [profile, setProfile] = useState([]);

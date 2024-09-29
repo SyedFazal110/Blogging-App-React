@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getAllData } from '../Config/Firebase/FirebaseMethods';
+import { getAllData } from '../config/Firebase/FirebaseMethods';
 
 const Home = () => {
 

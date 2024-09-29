@@ -1,7 +1,7 @@
 import { onAuthStateChanged } from 'firebase/auth'
 import React, { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { auth, getData, sendData } from '../Config/Firebase/FirebaseMethods'
+import { auth, getData, sendData } from '../config/Firebase/FirebaseMethods'
 import { BiLogoSass } from 'react-icons/bi'
 
 const Dashboard = () => {
